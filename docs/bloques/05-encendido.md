@@ -4,7 +4,7 @@
 
 El CDI guarda energía en un capacitor y la suelta de golpe sobre la bobina de alta cuando la bobina captora le avisa que es el momento. La bobina de alta la convierte en miles de voltios y salta la chispa en la bujía.
 
-<figure style="margin:1.5em 0">
+<figure style="margin:1.5em 0;display:block;width:100%;max-width:100%">
 <svg viewBox="0 0 760 264" role="img" aria-label="La captora da la orden y el CDI descarga sobre la bobina de alta" style="width:100%;height:auto;color:var(--md-typeset-color)" font-family="inherit" font-size="13">
   <defs><marker id="cdi-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#9a9a9a"/></marker></defs>
   <text x="24" y="30" font-size="15" font-weight="600" fill="currentColor">La captora da la orden y el CDI descarga sobre la bobina de alta</text>
