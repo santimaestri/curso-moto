@@ -1,0 +1,54 @@
+site_name: Curso de mecánica de motos
+site_description: Guía de repaso del curso de mecánica de motos, por tema
+site_url: https://santimaestri.github.io/curso-moto/
+repo_url: https://github.com/santimaestri/curso-moto
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+      toggle: {icon: material/weather-night, name: Modo oscuro}
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle: {icon: material/weather-sunny, name: Modo claro}
+  features:
+    - navigation.instant
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+    - content.action.edit
+  icon:
+    logo: material/motorbike
+plugins:
+  - search:
+      lang: es
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+  - Inicio: index.md
+  - Plan de repaso: plan.md
+  - Primer examen:
+      - 1 · Ciclo Otto: bloques/01-ciclo-otto.md
+      - 2 · Metrología: bloques/02-metrologia.md
+      - 3 · Cilindrada y compresión: bloques/03-cilindrada.md
+      - 4 · Arranque: bloques/04-arranque.md
+      - 5 · Encendido: bloques/05-encendido.md
+      - 6 · Cilindro, pistón y aros: bloques/06-cilindro-piston-aros.md
+      - 7 · Refrigeración: bloques/07-refrigeracion.md
+      - 8 · Sistema de carga: bloques/08-carga.md
+  - Después del examen:
+      - 9 · Carburación: bloques/09-carburacion.md
+      - 10 · Desarmado y armado: bloques/10-desarmado-armado.md
+      - 11 · Caja de cambios: bloques/11-caja-de-cambios.md
+      - 12 · Tapa y válvulas: bloques/12-tapa-valvulas.md
+      - 13 · Insertos: bloques/13-insertos.md
+      - 14 · Electricidad y diagnóstico: bloques/14-electricidad.md
